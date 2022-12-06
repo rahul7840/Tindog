@@ -1,0 +1,157 @@
+#title{
+    background-color: #FD297B;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    size: 4rem;
+    font-weight:bold;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    /* font-weight:bold; */
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* navebar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding:0rem 0 4.5rem;
+
+}
+.nav-item{
+    padding: 0 18px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu'   ;
+}
+/* btn  */
+
+.downlod-btn{
+    margin: 5% 1% 5%;
+}
+/* title image */
+.title-img{
+    width: 50%;
+    margin: 0% 18% 18% 20%;
+	/* transform: rotate(25deg); */
+    /* position: absolute; */
+}
+
+
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+ text-align: center;
+   padding: 4.5%;
+}
+.icon{
+    color: #FD297B;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #e6206c ;
+}
+
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #FD297B;
+   
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;    
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #FD297B;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+}
+
+/* call to action section */
+#cta{
+    background-color: #FD297B;
+    text-align: center;
+}
+.cta-heading{
+     font-family: 'Merriweather', serif;
+    color: white;
+    size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+
+/* footer section */
+.footer-brand{
+   font-size: 1rem;
+    margin: 1%;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.contect-logo:hover{
+    color: #FD297B;
+}
+
+
+
+
+
+/*responsive*/
+@media(max-width:992px){
+    
+    .title-img{
+        width: 0%;
+        margin: 0% 18% 18% 20%;
+        /* transform: rotate(25deg); */
+        /* position: absolute; */
+    }
+    h1{
+        font-family: 'Merriweather', serif;
+        color: white;
+        font-size: 5rem;
+        font-weight:bold;
+        /* line-height: 1.5; */
+        font-size: 60px;
+        text-align: center;
+    }
+    .download-btns{
+        margin: 10% 0 0 24%;
+    }
+}
